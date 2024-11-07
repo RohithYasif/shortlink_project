@@ -1,4 +1,3 @@
-# app/main/routes.py
 from flask import Blueprint, request, redirect, jsonify, render_template
 from .models import URL
 from app import db, limiter
